@@ -1,5 +1,5 @@
 .statistics {
-    margin-top: 20px;
+    margin-top: 50px;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -22,20 +22,22 @@
     margin-top: 0;
     margin-bottom: 15px;
     text-align: center;
+    font-family: 'Montserrat';
 }
 
-.item {
+.stat-item {
     display: flex;
     flex-direction: column;
     width: calc(100%/4);
     padding-top: 20px;
     padding-bottom: 20px;
     border: 1px solid rgb(226, 220, 220);
+    box-shadow: none;
 }
 
 .label,
 .percentage {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat';
     color: rgb(85, 81, 81);
 }
 

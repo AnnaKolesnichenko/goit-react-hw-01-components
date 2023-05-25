@@ -7,7 +7,7 @@ const Statistics = (props) => {
 
     const li = stats.map(stat => {
         return (
-            <li class="item">
+            <li class="stat-item">
                 <span class="label">{stat.label}</span>
                 <span class="percentage">{stat.percentage}</span>
             </li>  
