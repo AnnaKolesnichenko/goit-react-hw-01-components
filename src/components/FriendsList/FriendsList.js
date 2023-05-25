@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import './friendsList.css';
 
 const FriendsList = (props) => {
@@ -27,6 +29,10 @@ const FriendsList = (props) => {
             {friendList}
         </ul>
     )
+};
+
+FriendsList.propTypes = {
+    friends: PropTypes.object,
 };
 
 export default FriendsList;

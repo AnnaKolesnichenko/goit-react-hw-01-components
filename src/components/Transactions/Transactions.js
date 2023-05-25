@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import './transactions.css';
 
 const Transactions = ({items}) => {
@@ -35,6 +37,10 @@ const Transactions = ({items}) => {
         </table>
         
     )
+};
+
+Transactions.propTypes = {
+    items: PropTypes.object
 };
 
 export default Transactions;
