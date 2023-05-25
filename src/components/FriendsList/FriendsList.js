@@ -10,7 +10,6 @@ const FriendsList = (props) => {
             className += ' active';
         }
 
-
         return (
             <li class="friend-item">
                 <span class={className}></span>
