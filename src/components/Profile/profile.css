@@ -6,7 +6,7 @@
 
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 4px 5px 10px rgba(0, 0, 0, .4);
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, .2);
     font-family: 'Montserrat';
     color: rgb(102, 94, 94);
 }
@@ -28,7 +28,7 @@
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    box-shadow: 4px 5px 10px rgba(0, 0, 0, .4);
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, .2);
 }
 
 .stats li {

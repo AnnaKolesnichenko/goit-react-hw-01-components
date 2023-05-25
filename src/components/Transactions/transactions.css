@@ -1,7 +1,10 @@
 .transaction-history {
+    margin-bottom: 30px;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, .2);
 }
 
 table {
