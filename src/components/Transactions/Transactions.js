@@ -5,9 +5,12 @@ import './transactions.css';
 const Transactions = ({items}) => {
 
     const transactionList = items.map((item) => {
+        const key = item.id;
+
         return (
             <tbody class="row">
                 <tr>
+                    {key}
                     <td>{item.type}</td>
                     <td>{item.amount}</td>
                     <td>{item.currency}</td>
@@ -40,7 +43,12 @@ const Transactions = ({items}) => {
 };
 
 Transactions.propTypes = {
-    items: PropTypes.object
+    items: PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.string.isRequired,
+        type: PropTypes.string.isRequired,
+        amount: PropTypes.string.isRequired,
+        currency: PropTypes.string.isRequired,
+    })),
 };
 
 export default Transactions;

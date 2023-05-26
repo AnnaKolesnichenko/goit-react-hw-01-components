@@ -45,8 +45,8 @@ const Statistics = (props) => {
 };
 
 Statistics.propTypes = {
-    title: PropTypes.string,
-    label: PropTypes.string,
+    title: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
     percentage: PropTypes.number,
 }
 
