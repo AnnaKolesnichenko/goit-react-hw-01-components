@@ -9,8 +9,9 @@ const Transactions = ({items}) => {
 
         return (
             <tbody class="row">
+                {key}
                 <tr>
-                    {key}
+                    
                     <td>{item.type}</td>
                     <td>{item.amount}</td>
                     <td>{item.currency}</td>
